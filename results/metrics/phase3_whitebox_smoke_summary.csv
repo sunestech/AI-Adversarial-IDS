@@ -1,0 +1,9 @@
+run_name,attack_method,constraint_mode,epsilon,eps_step,iterations,attack_rows,baseline_detected_attack_rows,evasion_count,evasion_rate,post_attack_recall,avg_linf,avg_l1,avg_changed_feature_count,constraint_passed,frozen_feature_change_count,epsilon_violation_count,lower_bound_violation_count,upper_bound_violation_count
+phase3_whitebox_smoke,FGSM,unconstrained,0.01,,1,512,512,312,0.609375,0.390625,0.01000000536441803,0.5530639290809631,62.154296875,True,0,0,0,0
+phase3_whitebox_smoke,FGSM,unconstrained,0.05,,1,512,512,430,0.83984375,0.16015625,0.050000011920928955,2.67875337600708,62.154296875,True,0,0,0,0
+phase3_whitebox_smoke,FGSM,constrained,0.01,,1,512,512,5,0.009765625,0.990234375,0.010000000707805157,0.028445161879062653,4.45703125,True,0,0,0,0
+phase3_whitebox_smoke,FGSM,constrained,0.05,,1,512,512,82,0.16015625,0.83984375,0.050000011920928955,0.13761144876480103,4.45703125,True,0,0,0,0
+phase3_whitebox_smoke,PGD,unconstrained,0.01,0.0025,8,512,512,315,0.615234375,0.384765625,0.01000000536441803,0.5135075449943542,59.775390625,True,0,0,0,0
+phase3_whitebox_smoke,PGD,unconstrained,0.05,0.0125,8,512,512,450,0.87890625,0.12109375,0.050000011920928955,2.3908119201660156,58.98828125,True,0,0,0,0
+phase3_whitebox_smoke,PGD,constrained,0.01,0.0025,8,512,512,5,0.009765625,0.990234375,0.010000000707805157,0.028454504907131195,4.45703125,True,0,0,0,0
+phase3_whitebox_smoke,PGD,constrained,0.05,0.0125,8,512,512,83,0.162109375,0.837890625,0.050000011920928955,0.1395922154188156,4.435546875,True,0,0,0,0

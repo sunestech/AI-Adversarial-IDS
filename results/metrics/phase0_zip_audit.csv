@@ -1,0 +1,22 @@
+zip_file,member,member_type,rows_without_header,columns,label_columns
+MachineLearningCSV.zip,MachineLearningCVE/Wednesday-workingHours.pcap_ISCX.csv,csv,692703,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Tuesday-WorkingHours.pcap_ISCX.csv,csv,445909,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,csv,170366,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,csv,288602,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Monday-WorkingHours.pcap_ISCX.csv,csv,529918,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Friday-WorkingHours-Morning.pcap_ISCX.csv,csv,191033,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,csv,286467,79, Label
+MachineLearningCSV.zip,MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,csv,225745,79, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Wednesday-workingHours.pcap_ISCX.csv,csv,692703,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Tuesday-WorkingHours.pcap_ISCX.csv,csv,445909,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,csv,458968,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,csv,288602,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Monday-WorkingHours.pcap_ISCX.csv,csv,529918,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Friday-WorkingHours-Morning.pcap_ISCX.csv,csv,191033,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,csv,225745,85, Label
+GeneratedLabelledFlows.zip,TrafficLabelling /Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,csv,286467,85, Label
+pcap-20260928T204621Z-1-001.zip,pcap/Monday-WorkingHours.md5,md5,,,
+pcap-20260928T204621Z-1-001.zip,pcap/Tuesday-WorkingHours.md5,md5,,,
+pcap-20260928T204621Z-1-001.zip,pcap/Wednesday-workingHours.md5,md5,,,
+pcap-20260928T204621Z-1-001.zip,pcap/Friday-WorkingHours.md5,md5,,,
+pcap-20260928T204621Z-1-001.zip,pcap/Thursday-WorkingHours.md5,md5,,,

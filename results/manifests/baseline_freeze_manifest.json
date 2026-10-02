@@ -1,0 +1,146 @@
+[
+  {
+    "relative_path": "models/baseline/pytorch_clean_baseline.pt",
+    "size_bytes": 79241,
+    "modified_utc": "2026-09-28T21:45:30.722135+00:00",
+    "sha256": "a106de95b80e08972d3a325c42fc1a481df018adc29e63f184e5dfa71a413a09"
+  },
+  {
+    "relative_path": "models/baseline/xgboost_clean_baseline.json",
+    "size_bytes": 1034789,
+    "modified_utc": "2026-09-28T21:45:33.620832+00:00",
+    "sha256": "d5bd1599215c1fd94c597efeeec917c56c660a9f4f0bfb98257e39f2e1b38d74"
+  },
+  {
+    "relative_path": "models/baseline/median_imputer.joblib",
+    "size_bytes": 2839,
+    "modified_utc": "2026-09-28T21:44:49.582082+00:00",
+    "sha256": "4fd80f6fe5c6bb3504701dbaa60a171b30d4594c9a4622f25aa4ff140533f127"
+  },
+  {
+    "relative_path": "models/baseline/minmax_scaler.joblib",
+    "size_bytes": 3783,
+    "modified_utc": "2026-09-28T21:44:49.582082+00:00",
+    "sha256": "5f724e1989cf2dcc294d7f2ec3e0344bb230365d99b8cb20af752b455cbfd5dc"
+  },
+  {
+    "relative_path": "models/baseline/feature_columns.json",
+    "size_bytes": 1775,
+    "modified_utc": "2026-09-28T21:44:49.597234+00:00",
+    "sha256": "e5cf1de91256e65c192e5b689d899cff783b64fa82d69c048bf6922ea2303ea2"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/X_train_scaled.npy",
+    "size_bytes": 52344056,
+    "modified_utc": "2026-09-28T21:44:49.628384+00:00",
+    "sha256": "39d49b6d2feff02273e733b7728a0cacb03ca4fb0910d4bba988cee68f0a2125"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/X_val_scaled.npy",
+    "size_bytes": 17448104,
+    "modified_utc": "2026-09-28T21:44:49.633381+00:00",
+    "sha256": "de1553cc202d75b4c6035ff502f1ec2ff1ed1d87ac3a5ebec6a1fcb3e75185e2"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/X_test_scaled.npy",
+    "size_bytes": 17448416,
+    "modified_utc": "2026-09-28T21:44:49.639381+00:00",
+    "sha256": "1ee51d7aba784ae0591c8c94c20954e76e1210295d0e4fbaeea25e762f372ae2"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/y_train.npy",
+    "size_bytes": 1342280,
+    "modified_utc": "2026-09-28T21:44:49.640382+00:00",
+    "sha256": "0d482d6506cdda0edd299862c6281be755781eeaca4d502306ad362126bdc086"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/y_val.npy",
+    "size_bytes": 447512,
+    "modified_utc": "2026-09-28T21:44:49.641382+00:00",
+    "sha256": "38818ca90b7efad9c67af927889c92746fdb12a9395ec9c89392249500fee844"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/y_test.npy",
+    "size_bytes": 447520,
+    "modified_utc": "2026-09-28T21:44:49.641382+00:00",
+    "sha256": "1abc0a9c93e5021eed2ad40a5454b27093952a6ee881dca33721fd351c8dd893"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/pytorch_test_predictions.npy",
+    "size_bytes": 447520,
+    "modified_utc": "2026-09-28T21:45:30.778221+00:00",
+    "sha256": "d3f4f8c34dd2902e271237762b4a87ccfbe26f47a2bc5a8722d7416f1bdf8ee8"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/pytorch_test_attack_scores.npy",
+    "size_bytes": 223824,
+    "modified_utc": "2026-09-28T21:45:30.781224+00:00",
+    "sha256": "09b46aa10c90d391c3c768ac20a771346e4171175f23dc1952d710b19a0e0aee"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/xgboost_test_predictions.npy",
+    "size_bytes": 447520,
+    "modified_utc": "2026-09-28T21:45:33.622842+00:00",
+    "sha256": "98a8105c411d87347a8f9361aa25ee9eda231ede7b85a5cbcaf0176ad5066bed"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/xgboost_test_attack_scores.npy",
+    "size_bytes": 223824,
+    "modified_utc": "2026-09-28T21:45:33.624846+00:00",
+    "sha256": "7c202c8f4afa3cbaa4a174e9c22c39d75564ae6103452ba4699276e0945d3ccd"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/pytorch_correct_attack_test_indices.npy",
+    "size_bytes": 345992,
+    "modified_utc": "2026-09-28T21:45:33.627843+00:00",
+    "sha256": "e089a02c9162e87e7bb268ad215f762033250796d39bca24c9c50358c4c0bb8c"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/xgboost_correct_attack_test_indices.npy",
+    "size_bytes": 351448,
+    "modified_utc": "2026-09-28T21:45:33.630369+00:00",
+    "sha256": "f6c158f4904e28cee3f871ad080894b1959a5246df214711b945ead5aee7bc35"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/shared_correct_attack_test_indices.npy",
+    "size_bytes": 345968,
+    "modified_utc": "2026-09-28T21:45:33.631364+00:00",
+    "sha256": "e13637127a1eae649c26f7875f7a611b8461988ea3c345a55e398111cd359425"
+  },
+  {
+    "relative_path": "data/processed/baseline_arrays/test_attack_labels.csv",
+    "size_bytes": 524448,
+    "modified_utc": "2026-09-28T21:44:49.659383+00:00",
+    "sha256": "7cceb734c50e01776ede6a6785b980c90bcb5ed1ac5ce21e0a3156742328de1c"
+  },
+  {
+    "relative_path": "results/metrics/baseline_metrics.json",
+    "size_bytes": 1905,
+    "modified_utc": "2026-09-28T21:45:33.632363+00:00",
+    "sha256": "88ded3f8fed6299431b97bfe3cbcb321ac0d5728521eb5f1c07a0f565f13597b"
+  },
+  {
+    "relative_path": "results/metrics/pytorch_classification_report.txt",
+    "size_bytes": 334,
+    "modified_utc": "2026-09-28T21:45:30.769648+00:00",
+    "sha256": "ff356bee3e8d9a07a8deba09f999771fbce40ed3317a49cb91b11396dc67fd25"
+  },
+  {
+    "relative_path": "results/metrics/xgboost_classification_report.txt",
+    "size_bytes": 334,
+    "modified_utc": "2026-09-28T21:45:33.592914+00:00",
+    "sha256": "9058a2f960729f7a17d6eb4df3e9bede14d04957d5cb99ac248aeebc5d2c0d78"
+  },
+  {
+    "relative_path": "results/metrics/pytorch_training_history.csv",
+    "size_bytes": 2062,
+    "modified_utc": "2026-09-28T21:45:30.771647+00:00",
+    "sha256": "d353176d177a5a6b7808f72f82f548ec21034e5a073e193115e36e56d3f20ded"
+  },
+  {
+    "relative_path": "results/metrics/phase1_baseline_complete.txt",
+    "size_bytes": 37,
+    "modified_utc": "2026-09-28T21:45:33.633363+00:00",
+    "sha256": "a62832e7568e682f19f867d85dbdb44514adb2d8a1961b6510202d28574aad5e"
+  }
+]

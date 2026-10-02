@@ -1,0 +1,4 @@
+scenario,clean_accuracy,clean_attack_recall,false_positive_rate,fgsm_constrained_evasion_eps_0_100,pgd_constrained_evasion_eps_0_100,transfer_pytorch_evasion_eps_0_100,transfer_xgboost_evasion_eps_0_100,hopskipjump_projected_evasion_eps_0_100,notes
+Baseline PyTorch IDS,0.9803662112867463,0.9842682815772699,0.033916666666666664,0.4641593227395739,0.4818541391992228,0.4166551006245663,0.1335183900069396,0.0,Frozen baseline model
+Feature squeezing defense,0.9795079035834346,0.9828795191694746,0.03283333333333333,0.4592325307057109,0.4770429995605209,,,,Feature quantization applied before prediction
+Adversarial training defense,0.9775230670195265,0.984086148802477,0.0465,0.0188513404112599,0.0188513404112599,,,,Retrained with clean plus constrained PGD adversarial examples

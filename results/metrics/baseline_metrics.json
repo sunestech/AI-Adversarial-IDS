@@ -1,0 +1,77 @@
+{
+  "random_seed": 42,
+  "input_dim": 78,
+  "train_rows": 167769,
+  "validation_rows": 55923,
+  "test_rows": 55924,
+  "feature_columns": 78,
+  "preprocessing": {
+    "imputer": "SimpleImputer(strategy='median') fitted on train only",
+    "scaler": "MinMaxScaler() fitted on train only",
+    "clip_values": [
+      0.0,
+      1.0
+    ]
+  },
+  "pytorch": {
+    "accuracy": 0.9803662112867463,
+    "benign_precision": 0.9437479648323022,
+    "benign_recall": 0.9660833333333333,
+    "benign_f1": 0.95478504365014,
+    "benign_support": 12000,
+    "attack_precision": 0.9906736938588451,
+    "attack_recall": 0.9842682815772699,
+    "attack_f1": 0.9874606002466767,
+    "attack_f2": 0.9855427289637816,
+    "attack_support": 43924,
+    "false_positive_rate": 0.033916666666666664,
+    "confusion_matrix_labels": [
+      "BENIGN",
+      "ATTACK"
+    ],
+    "confusion_matrix": [
+      [
+        11593,
+        407
+      ],
+      [
+        691,
+        43233
+      ]
+    ],
+    "attack_pr_auc": 0.9988626740120855
+  },
+  "xgboost": {
+    "accuracy": 0.9993026249910593,
+    "benign_precision": 0.9992486851990984,
+    "benign_recall": 0.9975,
+    "benign_f1": 0.9983735768797698,
+    "benign_support": 12000,
+    "attack_precision": 0.9993173284787803,
+    "attack_recall": 0.9997951006283581,
+    "attack_f1": 0.9995561574616759,
+    "attack_f2": 0.9996995096543906,
+    "attack_support": 43924,
+    "false_positive_rate": 0.0025,
+    "confusion_matrix_labels": [
+      "BENIGN",
+      "ATTACK"
+    ],
+    "confusion_matrix": [
+      [
+        11970,
+        30
+      ],
+      [
+        9,
+        43915
+      ]
+    ],
+    "attack_pr_auc": 0.9999755891510873
+  },
+  "originally_correct_attack_cohorts": {
+    "pytorch_correct_attack_rows": 43233,
+    "xgboost_correct_attack_rows": 43915,
+    "shared_correct_attack_rows": 43230
+  }
+}

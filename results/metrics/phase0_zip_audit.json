@@ -1,0 +1,170 @@
+[
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Wednesday-workingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 692703,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Tuesday-WorkingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 445909,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 170366,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 288602,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Monday-WorkingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 529918,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 191033,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 286467,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "MachineLearningCSV.zip",
+    "member": "MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 225745,
+    "columns": 79,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Wednesday-workingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 692703,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Tuesday-WorkingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 445909,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 458968,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 288602,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Monday-WorkingHours.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 529918,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 191033,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 225745,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "GeneratedLabelledFlows.zip",
+    "member": "TrafficLabelling /Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "member_type": "csv",
+    "rows_without_header": 286467,
+    "columns": 85,
+    "label_columns": " Label"
+  },
+  {
+    "zip_file": "pcap-20260928T204621Z-1-001.zip",
+    "member": "pcap/Monday-WorkingHours.md5",
+    "member_type": "md5",
+    "rows_without_header": "",
+    "columns": "",
+    "label_columns": ""
+  },
+  {
+    "zip_file": "pcap-20260928T204621Z-1-001.zip",
+    "member": "pcap/Tuesday-WorkingHours.md5",
+    "member_type": "md5",
+    "rows_without_header": "",
+    "columns": "",
+    "label_columns": ""
+  },
+  {
+    "zip_file": "pcap-20260928T204621Z-1-001.zip",
+    "member": "pcap/Wednesday-workingHours.md5",
+    "member_type": "md5",
+    "rows_without_header": "",
+    "columns": "",
+    "label_columns": ""
+  },
+  {
+    "zip_file": "pcap-20260928T204621Z-1-001.zip",
+    "member": "pcap/Friday-WorkingHours.md5",
+    "member_type": "md5",
+    "rows_without_header": "",
+    "columns": "",
+    "label_columns": ""
+  },
+  {
+    "zip_file": "pcap-20260928T204621Z-1-001.zip",
+    "member": "pcap/Thursday-WorkingHours.md5",
+    "member_type": "md5",
+    "rows_without_header": "",
+    "columns": "",
+    "label_columns": ""
+  }
+]

@@ -1,0 +1,7 @@
+relative_path,size_bytes,modified_utc,sha256
+results/metrics/feature_feasibility_table.csv,15421,2026-09-28T21:53:44.609061+00:00,2eb09a322c53ef219674c3bf9019fed64935e3e7dcf434e31044d65739906c47
+results/metrics/phase2_feasibility_complete.txt,45,2026-09-28T21:53:44.610061+00:00,ff0e2ec67124e9123a02befddee7d24760091403c0bfc67c27824a0a8f715d13
+results/metrics/phase2_feasibility_summary.json,456,2026-09-28T21:53:44.610061+00:00,56ec1c63d8dcb8e998c13000859d08ae1fe5de09f03e7291ab4886278ea0124d
+results/metrics/phase3_whitebox_full_complete.txt,32,2026-09-28T21:57:00.698736+00:00,959938df52185d57f8d4dc42fccd3d247f47fdeec556163ff150d35467d2f6f6
+results/metrics/phase3_whitebox_full_summary.csv,3890,2026-09-28T21:57:00.696734+00:00,b56e887c31719b18666374931f46d06e96cf02066188fbf1900423d995558a35
+results/metrics/phase3_whitebox_full_summary.json,13789,2026-09-28T21:57:00.697736+00:00,51d0961cb311dbd84bc0082b3c02cd12be35de5fa58f5ef08f3a545c19d30241

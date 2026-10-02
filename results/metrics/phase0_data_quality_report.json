@@ -1,0 +1,108 @@
+{
+  "input_zip": "C:\\Users\\sunda\\Adversarial-IDS-Project\\data\\raw\\MachineLearningCSV.zip",
+  "csv_files_loaded": 8,
+  "combined_rows_after_cleaning": 2830743,
+  "combined_columns_after_cleaning": 80,
+  "numeric_columns": 78,
+  "infinity_values_replaced_with_nan": 4376,
+  "fully_empty_rows_removed": 0,
+  "missing_numeric_values_after_inf_replacement": 5734,
+  "label_column": "Label",
+  "unique_labels": 15,
+  "source_files": [
+    {
+      "source_file": "MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "rows": 225745,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "DDoS": 128027,
+        "BENIGN": 97718
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "rows": 286467,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "PortScan": 158930,
+        "BENIGN": 127537
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "rows": 191033,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 189067,
+        "Bot": 1966
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Monday-WorkingHours.pcap_ISCX.csv",
+      "rows": 529918,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 529918
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "rows": 288602,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 288566,
+        "Infiltration": 36
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "rows": 170366,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 168186,
+        "Web Attack \ufffd Brute Force": 1507,
+        "Web Attack \ufffd XSS": 652,
+        "Web Attack \ufffd Sql Injection": 21
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Tuesday-WorkingHours.pcap_ISCX.csv",
+      "rows": 445909,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 432074,
+        "FTP-Patator": 7938,
+        "SSH-Patator": 5897
+      }
+    },
+    {
+      "source_file": "MachineLearningCVE/Wednesday-workingHours.pcap_ISCX.csv",
+      "rows": 692703,
+      "columns_before_source_file": 79,
+      "columns_after_source_file": 80,
+      "label_column_found": true,
+      "label_counts": {
+        "BENIGN": 440031,
+        "DoS Hulk": 231073,
+        "DoS GoldenEye": 10293,
+        "DoS slowloris": 5796,
+        "DoS Slowhttptest": 5499,
+        "Heartbleed": 11
+      }
+    }
+  ]
+}

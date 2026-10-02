@@ -1,0 +1,9 @@
+source_file,rows,columns_before_source_file,columns_after_source_file,label_column_found
+MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,79,80,True
+MachineLearningCVE/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,79,80,True
+MachineLearningCVE/Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,79,80,True
+MachineLearningCVE/Monday-WorkingHours.pcap_ISCX.csv,529918,79,80,True
+MachineLearningCVE/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,79,80,True
+MachineLearningCVE/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,79,80,True
+MachineLearningCVE/Tuesday-WorkingHours.pcap_ISCX.csv,445909,79,80,True
+MachineLearningCVE/Wednesday-workingHours.pcap_ISCX.csv,692703,79,80,True

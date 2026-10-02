@@ -1,0 +1,61 @@
+attack_label,count,split
+PortScan,60000,sample
+DDoS,60000,sample
+DoS Hulk,60000,sample
+BENIGN,60000,sample
+DoS GoldenEye,10293,sample
+FTP-Patator,7938,sample
+SSH-Patator,5897,sample
+DoS slowloris,5796,sample
+DoS Slowhttptest,5499,sample
+Bot,1966,sample
+Web Attack - Brute Force,1507,sample
+Web Attack - XSS,652,sample
+Infiltration,36,sample
+Web Attack - Sql Injection,21,sample
+Heartbleed,11,sample
+PortScan,36000,train
+BENIGN,36000,train
+DoS Hulk,36000,train
+DDoS,36000,train
+DoS GoldenEye,6176,train
+FTP-Patator,4763,train
+SSH-Patator,3538,train
+DoS slowloris,3477,train
+DoS Slowhttptest,3299,train
+Bot,1179,train
+Web Attack - Brute Force,904,train
+Web Attack - XSS,391,train
+Infiltration,22,train
+Web Attack - Sql Injection,13,train
+Heartbleed,7,train
+DDoS,12000,validation
+BENIGN,12000,validation
+PortScan,12000,validation
+DoS Hulk,12000,validation
+DoS GoldenEye,2058,validation
+FTP-Patator,1587,validation
+SSH-Patator,1179,validation
+DoS slowloris,1159,validation
+DoS Slowhttptest,1100,validation
+Bot,394,validation
+Web Attack - Brute Force,302,validation
+Web Attack - XSS,131,validation
+Infiltration,7,validation
+Web Attack - Sql Injection,4,validation
+Heartbleed,2,validation
+DoS Hulk,12000,test
+DDoS,12000,test
+BENIGN,12000,test
+PortScan,12000,test
+DoS GoldenEye,2059,test
+FTP-Patator,1588,test
+SSH-Patator,1180,test
+DoS slowloris,1160,test
+DoS Slowhttptest,1100,test
+Bot,393,test
+Web Attack - Brute Force,301,test
+Web Attack - XSS,130,test
+Infiltration,7,test
+Web Attack - Sql Injection,4,test
+Heartbleed,2,test

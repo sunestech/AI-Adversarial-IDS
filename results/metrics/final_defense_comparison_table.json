@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "Baseline PyTorch IDS",
+    "clean_accuracy": 0.9803662112867463,
+    "clean_attack_recall": 0.9842682815772699,
+    "false_positive_rate": 0.033916666666666664,
+    "fgsm_constrained_evasion_eps_0_100": 0.4641593227395739,
+    "pgd_constrained_evasion_eps_0_100": 0.4818541391992228,
+    "transfer_pytorch_evasion_eps_0_100": 0.4166551006245663,
+    "transfer_xgboost_evasion_eps_0_100": 0.1335183900069396,
+    "hopskipjump_projected_evasion_eps_0_100": 0.0,
+    "notes": "Frozen baseline model"
+  },
+  {
+    "scenario": "Feature squeezing defense",
+    "clean_accuracy": 0.9795079035834346,
+    "clean_attack_recall": 0.9828795191694746,
+    "false_positive_rate": 0.03283333333333333,
+    "fgsm_constrained_evasion_eps_0_100": 0.4592325307057109,
+    "pgd_constrained_evasion_eps_0_100": 0.4770429995605209,
+    "transfer_pytorch_evasion_eps_0_100": null,
+    "transfer_xgboost_evasion_eps_0_100": null,
+    "hopskipjump_projected_evasion_eps_0_100": null,
+    "notes": "Feature quantization applied before prediction"
+  },
+  {
+    "scenario": "Adversarial training defense",
+    "clean_accuracy": 0.9775230670195265,
+    "clean_attack_recall": 0.984086148802477,
+    "false_positive_rate": 0.0465,
+    "fgsm_constrained_evasion_eps_0_100": 0.0188513404112599,
+    "pgd_constrained_evasion_eps_0_100": 0.0188513404112599,
+    "transfer_pytorch_evasion_eps_0_100": null,
+    "transfer_xgboost_evasion_eps_0_100": null,
+    "hopskipjump_projected_evasion_eps_0_100": null,
+    "notes": "Retrained with clean plus constrained PGD adversarial examples"
+  }
+]

@@ -1,0 +1,7 @@
+relative_path,size_bytes,modified_utc,sha256
+results/metrics/phase4b_hopskipjump_full_complete.txt,36,2026-09-28T22:31:09.116980+00:00,387e4671087b0a28074f52de95724e87d36103e5860e64a08fd05b0e549839d5
+results/metrics/phase4b_hopskipjump_full_summary.csv,773,2026-09-28T22:31:09.115976+00:00,63bf9788469b02e7a02f202df592e78d97700cfa25183f6d85742de54c734024
+results/metrics/phase4b_hopskipjump_full_summary.json,1655,2026-09-28T22:31:09.115976+00:00,c482738f04ba9401304d405f2e89d7f34c409a6eae409652dd76342ecd227460
+results/metrics/phase4b_hopskipjump_smoke_complete.txt,37,2026-09-28T22:29:22.957560+00:00,86c0a1e42826f861ac750681d761ba9a8f21398004b2db452de8ee77991d7c61
+results/metrics/phase4b_hopskipjump_smoke_summary.csv,746,2026-09-28T22:29:22.952433+00:00,235874fbe6c5750d6a762558754ac1afe17b190a7f2b7df834827fb10463c46a
+results/metrics/phase4b_hopskipjump_smoke_summary.json,1628,2026-09-28T22:29:22.957560+00:00,c7ce6a378fac1d4479843ca4d3b2e3ace02d95a318c2356f5b2ff5d441d4aeb9

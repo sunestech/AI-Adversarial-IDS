@@ -1,0 +1,23 @@
+{
+  "input_file": "C:\\Users\\sunda\\Adversarial-IDS-Project\\data\\processed\\machinelearning_combined_clean.csv",
+  "random_seed": 42,
+  "max_per_class": 60000,
+  "rows_after_missing_label_drop": 2830743,
+  "missing_labels_removed": 0,
+  "feature_columns": 78,
+  "infinity_values_replaced": 0,
+  "missing_feature_values_after_conversion": 5734,
+  "modeling_sample_rows": 279616,
+  "train_rows": 167769,
+  "validation_rows": 55923,
+  "test_rows": 55924,
+  "binary_label_definition": {
+    "0": "BENIGN",
+    "1": "any attack label"
+  },
+  "label_fixes_applied": {
+    "Web Attack \ufffd Brute Force": "Web Attack - Brute Force",
+    "Web Attack \ufffd XSS": "Web Attack - XSS",
+    "Web Attack \ufffd Sql Injection": "Web Attack - Sql Injection"
+  }
+}

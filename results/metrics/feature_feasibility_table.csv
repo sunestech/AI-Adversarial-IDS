@@ -1,0 +1,79 @@
+feature_index,feature,attacker_controllable,category,perturbation_allowed,direction,constraint,reason
+0,Destination Port,no,frozen,0,none,feature frozen during constrained attacks,not included in the conservative attacker-controllable set
+1,Flow Duration,yes,directly_perturbable,1,increase_or_small_adjustment,must remain >= 0 and within scaled epsilon budget,"attacker may delay or pace traffic, but cannot create impossible negative duration"
+2,Total Fwd Packets,yes,directly_perturbable,1,increase,must remain >= 0 and integer-like after inverse transform,"attacker may add forward packets or split payloads, but cannot arbitrarily reduce already observed packets"
+3,Total Backward Packets,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+4,Total Length of Fwd Packets,yes,directly_perturbable,1,increase,must remain >= 0 and consistent with forward packet count,attacker may pad or alter forward payload size within realistic limits
+5,Total Length of Bwd Packets,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+6,Fwd Packet Length Max,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+7,Fwd Packet Length Min,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+8,Fwd Packet Length Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+9,Fwd Packet Length Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+10,Bwd Packet Length Max,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+11,Bwd Packet Length Min,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+12,Bwd Packet Length Mean,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+13,Bwd Packet Length Std,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+14,Flow Bytes/s,no,derived_rate,0,none,feature frozen during constrained attacks,flow rates are derived from duration and packet or byte counts
+15,Flow Packets/s,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+16,Flow IAT Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+17,Flow IAT Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+18,Flow IAT Max,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+19,Flow IAT Min,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+20,Fwd IAT Total,no,derived_or_timing_aggregate,0,none,feature frozen during constrained attacks,inter-arrival timing is derived from packet timestamps and must remain internally consistent
+21,Fwd IAT Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+22,Fwd IAT Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+23,Fwd IAT Max,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+24,Fwd IAT Min,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+25,Bwd IAT Total,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+26,Bwd IAT Mean,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+27,Bwd IAT Std,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+28,Bwd IAT Max,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+29,Bwd IAT Min,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+30,Fwd PSH Flags,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+31,Bwd PSH Flags,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+32,Fwd URG Flags,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+33,Bwd URG Flags,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+34,Fwd Header Length,no,protocol_or_derived_size,0,none,feature frozen during constrained attacks,header length is protocol-dependent and must remain consistent with packet structure
+35,Bwd Header Length,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+36,Fwd Packets/s,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+37,Bwd Packets/s,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+38,Min Packet Length,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+39,Max Packet Length,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+40,Packet Length Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+41,Packet Length Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+42,Packet Length Variance,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+43,FIN Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+44,SYN Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+45,RST Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+46,PSH Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+47,ACK Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+48,URG Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+49,CWE Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+50,ECE Flag Count,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+51,Down/Up Ratio,no,frozen,0,none,feature frozen during constrained attacks,not included in the conservative attacker-controllable set
+52,Average Packet Size,no,protocol_state,0,none,feature frozen during constrained attacks,"TCP flag counts must correspond to a valid packet sequence, so they are frozen in this conservative model"
+53,Avg Fwd Segment Size,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+54,Avg Bwd Segment Size,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+55,Fwd Header Length.1,no,protocol_or_derived_size,0,none,feature frozen during constrained attacks,header length is protocol-dependent and must remain consistent with packet structure
+56,Fwd Avg Bytes/Bulk,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+57,Fwd Avg Packets/Bulk,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+58,Fwd Avg Bulk Rate,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+59,Bwd Avg Bytes/Bulk,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+60,Bwd Avg Packets/Bulk,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+61,Bwd Avg Bulk Rate,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+62,Subflow Fwd Packets,no,derived_or_flow_aggregate,0,none,feature frozen during constrained attacks,bulk and subflow values are derived aggregates and should not be independently changed
+63,Subflow Fwd Bytes,no,derived_or_flow_aggregate,0,none,feature frozen during constrained attacks,bulk and subflow values are derived aggregates and should not be independently changed
+64,Subflow Bwd Packets,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+65,Subflow Bwd Bytes,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+66,Init_Win_bytes_forward,yes,directly_perturbable,1,bounded_adjustment,must remain >= 0 and within valid TCP window-size range,forward TCP initial window can vary by host stack and attacker-controlled client behavior
+67,Init_Win_bytes_backward,no,context_or_server_side,0,none,feature frozen during constrained attacks,backward/server-to-client behavior is not directly controlled by the attacker in this conservative model
+68,act_data_pkt_fwd,yes,directly_perturbable,1,increase_or_same,must remain >= 0 and integer-like after inverse transform,attacker may influence number of forward packets carrying data
+69,min_seg_size_forward,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+70,Active Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+71,Active Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+72,Active Max,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+73,Active Min,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+74,Idle Mean,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+75,Idle Std,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+76,Idle Max,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed
+77,Idle Min,no,derived_or_statistical,0,none,feature frozen during constrained attacks,statistical aggregate depends on multiple packet-level events and should not be independently perturbed

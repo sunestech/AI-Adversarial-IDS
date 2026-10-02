@@ -1,0 +1,14 @@
+{
+  "feature_count": 78,
+  "directly_perturbable_count": 5,
+  "frozen_count": 73,
+  "directly_perturbable_features": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Length of Fwd Packets",
+    "Init_Win_bytes_forward",
+    "act_data_pkt_fwd"
+  ],
+  "attacker_model": "conservative network-flow evasion model",
+  "purpose": "constrain adversarial examples so perturbations affect only plausible attacker-controllable flow features"
+}

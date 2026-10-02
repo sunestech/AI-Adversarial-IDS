@@ -1,0 +1,8 @@
+relative_path,size_bytes,modified_utc,sha256
+models/surrogate/surrogate_transfer_model.pt,57915,2026-09-28T22:13:01.305668+00:00,ae0c21d6df8f53d479b8a3029536c742814dad8a298c721a89900f20fcd783c1
+results/metrics/phase4a_transfer_full_complete.txt,33,2026-09-28T22:13:08.248543+00:00,df329f9c1a7ab681f8e80463ab851a4d1fad86025020b9788e2c1218faeb9f49
+results/metrics/phase4a_transfer_full_summary.csv,1828,2026-09-28T22:13:08.246541+00:00,346171875b4e782eb73669d9d9ef7fc57329480710a592e93f3a6fde65afe7eb
+results/metrics/phase4a_transfer_full_summary.json,4908,2026-09-28T22:13:08.247542+00:00,c0f7e802bfc2c88638f9586490473997b2f98425e37afacd430cd4a7ca0dc5e4
+results/metrics/phase4a_transfer_smoke_complete.txt,34,2026-09-28T22:11:00.548769+00:00,8f4cd610e1feb38fc40dc9feb71275bff92ddd4cbd2e0c884c3bde2840c1bce1
+results/metrics/phase4a_transfer_smoke_summary.csv,891,2026-09-28T22:11:00.547767+00:00,436545559ed0017644ec9800f51646cd5c8f96e884b9991c296e3a627df159f3
+results/metrics/phase4a_transfer_smoke_summary.json,1829,2026-09-28T22:11:00.547767+00:00,3f49727258739dd0a72e86033b4dce8add61c32ccdcc75bf7997442009ad8759

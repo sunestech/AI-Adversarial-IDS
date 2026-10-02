@@ -1,0 +1,3 @@
+run_name,attack_method,target_model,attack_rows,max_iter,max_eval,init_eval,configured_query_budget_per_sample_approx,epsilon_projection,baseline_detected_attack_rows,raw_unprojected_evasion_rate,constrained_projected_evasion_count,constrained_projected_evasion_rate,post_attack_recall,avg_linf,avg_l1,avg_changed_feature_count,constraint_passed,frozen_feature_change_count,epsilon_violation_count,lower_bound_violation_count,upper_bound_violation_count
+phase4b_hopskipjump_full,HopSkipJump,PyTorch,300,20,500,50,10000,0.05,300,1.0,0,0.0,1.0,0.01577754318714142,0.0320998877286911,4.553333333333334,True,0,0,0,0
+phase4b_hopskipjump_full,HopSkipJump,PyTorch,300,20,500,50,10000,0.1,300,1.0,0,0.0,1.0,0.01692105643451214,0.03359023481607437,4.553333333333334,True,0,0,0,0
